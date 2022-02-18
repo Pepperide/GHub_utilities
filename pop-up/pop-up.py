@@ -15,7 +15,6 @@ class PopUp(tk.Tk):
         super().__init__()
 
         #configure the root window
-        #self.update_idletasks()
         self.overrideredirect(True)
         self.resizable(False, False)
         self.wm_attributes("-topmost", 1)

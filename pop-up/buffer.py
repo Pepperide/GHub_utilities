@@ -23,9 +23,9 @@ class BufferRead(object):
         
         if win32event.WaitForSingleObject (self.data_ready, win32event.INFINITE) == win32event.WAIT_OBJECT_0:
             self.buffer.seek (0)
-            #
+            
             # The first DWORD is the process id which generated the output
-            #
+            
             process_id, = struct.unpack ("L", self.buffer.read (4))
             if f"{process_id}" in out:
                 data = self.buffer.read (32).decode("utf-8")
