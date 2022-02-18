@@ -1,6 +1,7 @@
 #
 # copyright © 2022 Giuseppe Fanuli
 #
+# Software v1.0.0
 # See README.txt for more information
 #
 
