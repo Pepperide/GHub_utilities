@@ -1,5 +1,5 @@
 #
-# copyright © 2022 Giuseppe Fanuli3
+# copyright © 2022 Giuseppe Fanuli
 #
 # See README.txt for more information
 #
